@@ -1,0 +1,9 @@
+.wrapper {
+	@apply flex justify-center mt-[40px];
+	.title {
+		@apply text-center text-red-400 text-[60px];
+	}
+	.footerInfo {
+		@apply flex items-center justify-between border-gray-200 border bg-white h-[50px] px-[15px];
+	}
+}

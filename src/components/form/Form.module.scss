@@ -1,0 +1,9 @@
+.field {
+	@apply flex relative;
+	.chevron {
+		@apply absolute before:content-['\276E'] text-[24px] -rotate-90 top-[13px] left-[25px] text-gray-400 cursor-pointer;
+	}
+	.input {
+		@apply h-[60px] border-gray-200 border shadow-xl w-[600px] px-[65px] outline-red-300 italic text-[18px];
+	}
+}

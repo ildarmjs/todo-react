@@ -1,0 +1,23 @@
+.task {
+	@apply border-gray-200 border bg-white w-[600px] h-[60px] flex items-center text-[20px];
+	.checkbox {
+		@apply cursor-pointer;
+	}
+	input[type='checkbox'] {
+		appearance: none;
+		outline: none;
+		width: 35px;
+		height: 35px;
+		border: 1px solid #aca9a9;
+		border-radius: 50%;
+		position: relative;
+	}
+
+	input[type='checkbox']:checked::after {
+		content: '\2714';
+		color: green;
+		position: absolute;
+		top: 2px;
+		left: 8px;
+	}
+}
